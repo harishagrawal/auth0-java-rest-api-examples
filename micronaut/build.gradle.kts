@@ -22,6 +22,14 @@ dependencies {
     testImplementation("io.micronaut:micronaut-http-client")
     aotPlugins(platform("io.micronaut.platform:micronaut-platform:4.2.4"))
     aotPlugins("io.micronaut.security:micronaut-security-aot")
+
+//dependency added by roostGPT
+testImplementation("javax.security.auth:javax.security.auth:1.0")
+testImplementation("junit:junit:4.13.1")
+testImplementation("org.mockito:mockito-core:3.12.4")
+testImplementation("org.assertj:assertj-core:3.21.0")
+testImplementation("io.micronaut:micronaut-http:4.2.4")
+testImplementation("javax.concurrent:javax.concurrent-api:1.0.0")
 }
 
 
