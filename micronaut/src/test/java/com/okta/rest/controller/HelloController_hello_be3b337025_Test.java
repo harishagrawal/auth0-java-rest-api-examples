@@ -48,6 +48,7 @@ Solution: Catch exceptions in your code and return a generic error message to th
 */
 
 // ********RoostGPT********
+
 package com.okta.rest.controller;
 
 import io.micronaut.http.MediaType;
